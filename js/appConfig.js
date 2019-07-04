@@ -8,17 +8,13 @@
 
 module.exports = {
     pages: [{
-        name: "home",
+        name: "Home",
         path: "/",
         component: require('./pages/Home')
-    }, {
-        name: "main",
-        path: "/main",
-        component: require('./pages/Main')
     }],
     pluginsDef: require('./plugins.js'),
     initialState: {
         defaultState: {},
         mobile: {}
     }
-};
+}
